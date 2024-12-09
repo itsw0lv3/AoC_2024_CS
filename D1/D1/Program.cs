@@ -24,6 +24,7 @@ class AoC
     }
     public static void GenerateDiff(List<int> leftList, List<int> rightList)
     {
+        // For Pt.1
         List<int> diffList = new List<int>();
         for(int i = 0; i < leftList.Count; i++) 
         {
@@ -44,6 +45,7 @@ class AoC
 
     public static void ScoreSimilarity(List<int> leftList, List<int> rightList)
     {
+        // For Pt.2
         List<int> simScores = new List<int>();
         for (int i = 0; i < leftList.Count; i++)
         {
